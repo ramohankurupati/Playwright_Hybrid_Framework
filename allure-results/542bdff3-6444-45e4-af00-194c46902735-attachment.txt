@@ -1,0 +1,74 @@
+[
+  {
+    id: 8556308,
+    name: 'uday',
+    email: 'automation1@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8555479,
+    name: 'Brahmdev Desai',
+    email: 'desai_brahmdev@fritsch.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8555478,
+    name: 'Bhaanumati Arora CPA',
+    email: 'cpa_arora_bhaanumati@douglas.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8555477,
+    name: 'Baidehi Arora',
+    email: 'arora_baidehi@howe-abernathy.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8555476,
+    name: 'Sanka Patil',
+    email: 'sanka_patil@koch.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8555475,
+    name: 'Lakshmi Khanna',
+    email: 'lakshmi_khanna@hansen.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8555474,
+    name: 'Aalok Trivedi',
+    email: 'aalok_trivedi@bergnaum.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8555473,
+    name: 'Shresthi Pilla CPA',
+    email: 'shresthi_cpa_pilla@schumm.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8555472,
+    name: 'Msgr. Soma Kaniyar',
+    email: 'soma_msgr_kaniyar@schmitt-erdman.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8555471,
+    name: 'Fr. Smriti Ahluwalia',
+    email: 'ahluwalia_smriti_fr@kautzer-bergstrom.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
+200
+OK
