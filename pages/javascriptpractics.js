@@ -148,7 +148,7 @@ console.log(gNum);//[ 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 */
 
 // object --> it is a collection of properties in key, value pair format
-
+/* 
 let user = {
 name: 'Ram',
 age:41,
@@ -162,5 +162,39 @@ console.log(user);
 console.log(user.name); // to get the Name
 console.log(user[city]);// to get the city
 
-
+ */
 //to add Property 
+
+function compressString(input: string): string {
+  // Return early if the string is empty
+  if (!input) return "";
+
+  const result: string[] = [];
+  let currentChar = input[0];
+  let currentCount = 1;
+
+  // Iterate through the string starting from the second character
+  for (let i = 1; i < input.length; i++) {
+    if (input[i] === currentChar) {
+      currentCount++;
+    } else {
+      // Store the run length of the previous character
+      result.push(`${currentChar}->${currentCount}`);
+      // Reset for the new character
+      currentChar = input[i];
+      currentCount = 1;
+    }
+  }
+
+  // Push the final group after the loop finishes
+  result.push(`${currentChar}->${currentCount}`);
+
+  // Join each pair with a space
+  return result.join(" ");
+}
+
+// --- Example Usage ---
+const input = "aaabbbcccdddaa";
+const compressed = compressString(input);
+
+console.log(compressed);
