@@ -5,7 +5,7 @@ import { HomePage } from '../pages/homePage'
 test('Regstration @master', async({page})=>{
 
     page.goto('https://tutorialsninja.com/demo/index.php?route=common/home')
-    await page.waitForTimeout(4000)
+    //await page.waitForTimeout(4000)
 
 let HP = new HomePage(page)
 HP.Registration()
@@ -18,7 +18,7 @@ HP.Registration()
     console.log(msg);
 
     expect(msg).toBeTruthy()
-    await page.waitForTimeout(5000)
+    //await page.waitForTimeout(5000)
 
 
 

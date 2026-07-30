@@ -12,8 +12,8 @@ await HP.login()
 
 
 let LP = new LoginPage (page)
-await LP.enterEmail(TestConfig.email1)
-await LP.enterPassword(TestConfig.Password1)
+await LP.enterEmail(TestConfig.email)
+await LP.enterPassword(TestConfig.Password)
 await LP.clickLogin()
 await page.waitForTimeout(2000)
 
