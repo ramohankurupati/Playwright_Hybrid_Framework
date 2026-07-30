@@ -1,0 +1,74 @@
+[
+  {
+    id: 8557421,
+    name: 'Ramamohan',
+    email: 'automation_1784963276370@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8556308,
+    name: 'uday',
+    email: 'automation1@open.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8548962,
+    name: 'Ganak Khatri',
+    email: 'khatri_ganak@beer-gerlach.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8548959,
+    name: 'Karunanidhi Ahluwalia MD',
+    email: 'md_karunanidhi_ahluwalia@walter-goyette.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8548958,
+    name: 'Girika Adiga',
+    email: 'adiga_girika@rogahn-wunsch.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8548956,
+    name: 'Ghanaanand Ahuja',
+    email: 'ahuja_ghanaanand@koss-reilly.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8548955,
+    name: 'Rakesh Talwar',
+    email: 'talwar_rakesh@bauch.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8538593,
+    name: 'Sarla Kocchar',
+    email: 'sarla_kocchar@borer-gulgowski.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8538591,
+    name: 'Hamsini Panicker',
+    email: 'panicker_hamsini@vonrueden-will.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8538589,
+    name: 'Kashyapi Kapoor II',
+    email: 'kashyapi_ii_kapoor@douglas.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
+200
+OK

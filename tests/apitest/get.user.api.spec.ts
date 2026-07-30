@@ -13,7 +13,7 @@ test('user_api_test', async({request})=>{
 
 
 let jsonBody = await response.json();
-console.log(jsonBody);
+//console.log(jsonBody);
 console.log(response.status());
 console.log(response.statusText());
 expect(response.status()).toBe(200); 
