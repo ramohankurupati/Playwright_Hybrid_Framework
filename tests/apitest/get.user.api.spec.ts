@@ -7,7 +7,7 @@ let AUTH_TOKEN = {Authorization: 'Bearer bb5fcb2b5c70c5d67e152fb5e9e290768001221
 
 test('user_api_test', async({request})=>{
 
-    let response = await request.get('https://gorest.co.in/public/v2/users/8557426',{
+    let response = await request.get('https://gorest.co.in/public/v2/users',{
     headers:AUTH_TOKEN
 })
 
